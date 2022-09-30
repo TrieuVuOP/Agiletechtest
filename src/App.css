@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+.item{
+  max-width: 1200px;
+  background-color: cadetblue;
+  height: 100px;
+  text-align: center;
+  margin-left: 5px;
+}
+button{
+  height: 50px;
+  margin-top: 25px;
+  border-radius: 50px;
+}

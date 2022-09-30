@@ -1,24 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import Carousel from "./carousel/Carousel";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Carousel show={1} infiniteLoop>
+      <div className="item">
+        <div style={{ padding: 8 }}>1</div>
+      </div>
+      <div className="item">
+        <div style={{ padding: 8 }}>2</div>
+      </div>
+      <div className="item">
+        <div style={{ padding: 8 }}>3</div>
+      </div>
+      <div className="item">
+        <div style={{ padding: 8 }}>4</div>
+      </div>
+      <div className="item">
+        <div style={{ padding: 8 }}>5</div>
+      </div>
+      <div className="item">
+        <div style={{ padding: 8 }}>6</div>
+      </div>
+      <div className="item">
+        <div style={{ padding: 8 }}>7</div>
+      </div>
+      <div className="item">
+        <div style={{ padding: 8 }}>8</div>
+      </div>
+    </Carousel>
+    // </div>
   );
 }
 
